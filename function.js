@@ -47,8 +47,7 @@ for(const call of calls ){
      
           
          coinCount.innerText = newcoinCountNum;
-          
-    //  call history added task
+            //  call history added task
     let historyParentDiv = document.getElementById("call-history-container-parent");
     let historyDiv=document.createElement("div");
     historyDiv.innerHTML  = `
@@ -96,11 +95,8 @@ copyCount.innerText = newCopyCount;
 
 let copyNumber = copyBtn.parentNode.parentNode.children[3].innerText;
 
-
+    
 navigator.clipboard.writeText(copyNumber);
-
-
-
 
     })
    }
