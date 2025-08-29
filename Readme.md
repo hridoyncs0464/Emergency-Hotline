@@ -54,6 +54,7 @@ Event Delegation is  useful because its a  pattern that allows you to write clea
 
 
 5.What is the difference between preventDefault() and stopPropagation() methods?
+
 Answer: 
 preventDefault() -> Prevent the default action of browsers taking on that event.
 stopPropagation()->Prevent further propagation of current events by parent or child elements.
