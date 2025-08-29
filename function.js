@@ -36,7 +36,7 @@ for(const call of calls ){
        let coinCountNum = coinCount.innerText;
    
       let newcoinCountNum = coinCountNum - 20;
-
+ 
       if(newcoinCountNum  < 0){
             alert("you don't have enough coin to make call ,you need 20 coin");
             return;
