@@ -45,13 +45,13 @@ for(const call of calls ){
              alert( "calling "+ title+" "+num + "...");
           }
      
-          
+             
          coinCount.innerText = newcoinCountNum;
             //  call history added task
     let historyParentDiv = document.getElementById("call-history-container-parent");
     let historyDiv=document.createElement("div");
     historyDiv.innerHTML  = `
-     <div class="card1 w-[350px] flex py-[16px] px-[16px] mb-[20px] justify-between items-center bg-[#FAFAFA] rounded-[8px] ">
+     <div class="card1 sm:w-[350px] w-[220px] flex   py-[16px] px-[16px] mb-[15px] justify-between items-center bg-[#FAFAFA] rounded-[8px] ">
           <div><h3 class="title text-[#111111] font-semibold text-[1.125rem] ">
           ${title}
           </h3>
